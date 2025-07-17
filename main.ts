@@ -9,9 +9,12 @@ namespace knowledgeAI {
         answers.push(a)
     }
 
-    //% block="ask AI $input" blockGap=12
-    export function askAI(input: string): string {
-        if (questions.length == 0) return "No knowledge yet."
+       //% block="AI say response to $input" blockGap=12
+    export function sayResponse(input: string) {
+        let result = askAI(input)
+        game.showLongText(result, DialogLayout.Center)
+    }
+
 
         let bestIndex = 0
         let bestScore = 0
