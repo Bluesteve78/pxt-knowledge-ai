@@ -1,4 +1,4 @@
-//% weight=100 color=#0088FF icon="\uf5dc" block="Knowledge AI"
+//% weight=100 color=#0088FF icon="AI" block="Knowledge AI"
 namespace knowledgeAI {
     let questions: string[] = []
     let answers: string[] = []
