@@ -1,0 +1,15 @@
+{
+  "name": "knowledge-ai",
+  "description": "An AI-like Q&A system using knowledge bases for MakeCode Arcade",
+  "dependencies": {},
+  "files": [
+    "main.ts"
+  ],
+  "testFiles": [],
+  "targetVersions": {
+    "arcade": "*"
+  },
+  "preferredEditor": "arcade",
+  "icon": "brain",
+  "homepage": "https://github.com/Bluesteve78/pxt-knowledge-ai"
+}
